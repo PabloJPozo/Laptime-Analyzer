@@ -37,7 +37,7 @@ def main():
     print("La vuelta mas rapida es: ", convertir_a_minutos(vuelta_mas_rapida))
 
     promedio_vueltas = sum(tiempos_en_seg) / len(tiempos_en_seg)
-    print("El promedio de es: ", convertir_a_minutos(promedio_vueltas))
+    print("El promedio es: ", convertir_a_minutos(promedio_vueltas))
 
     deltas = []
 
